@@ -37,14 +37,12 @@ form { border-style:outset;}
 <div>
 
 <!-- Notice the action and method in the form-->
-<!-- we can check user input using javascript but not now. Foexample: Make sure user enter something, etc -->
-
 <form action="12WelcomeUser.html" method="post">
 <H1>User Login</h1>
 
-<!--Notice: a new attibute 'placeholder'-->
-<p> User Name: <input type="text" placeholder="Enter User Name">  </p>
-<p> Password: <input type="password" placeholder="Enter Password"> </p>
+<!--Notice: a new attibutes 1) 'placeholder' 2)'required'-->
+<p> User Name: <input type="text" placeholder="Enter User Name" required>  </p>
+<p> Password: <input type="password" placeholder="Enter Password" required> </p>
 <input type="Submit" value="Login">
 <input type="reset" value="Clear"> <!-- it clears the text boxies values -->
 <br><br>
