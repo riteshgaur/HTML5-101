@@ -1,17 +1,43 @@
 <!-- Because now we know little bit of CSS, we can improve our Homepage -->
 <!-- we also need to update our hyperlinks so that use can navigate -->
+<!--Let's improve our code -->
+<!-- WILL ADD FEW NEW THINGS SO PAY ATTENTION -->
 
 
 <!doctype html> <!-- different from HTML4, this one is simple and easy to remember -->
+
 <html>
   <head>
   <title>We make good cofee| Thee Coffee shop</title>
-  </head>
+
+<!--
+A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling.
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+
+-Source: W3Schools.com
+
+ -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--font-family is added for the body of the page-->
+  <style>
+  div { text-align: center;}
+  h1,h2 {color: Purple;}
+
+  body {
+    font-family:"Segoe UI",Arial,sans-serif
+    text-align: justify;
+  }
+
+
+
+
+  </style>
+    </head>
 <body>
-<style>
-div { text-align: center;}
-h1,h2 {color: Purple;}
-</style>
+
 
 <header>
     <h1>Thee <sup>Cofee </sup>Shop!<h1>
@@ -31,7 +57,7 @@ Home |
 <img src="HomepageImages/CoffeeSugar.jpg" alt="Cofee-image"width="250" height="150">
 <img src="HomepageImages/CoffeeJar.jpg" alt="Cofee-image" width="250" height="150">
 <!--NOTICE a new tag "video"-->
-<video width="265" autoplay="autoplay" loop="loop">
+<video width="265" autoplay="autoplay" loop="loop" controls="controls">
   <source src="HomepageVideo/01.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>

@@ -2,6 +2,17 @@
 <html>
 <header>
     <h1>Thee <sup>Cofee </sup>Shop!<h1>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+      div { text-align: center;}
+      p { color: blue;}
+      H1{ color:purple;}
+      form { border-style:outset;}
+      button {color: Green; height: 30px; width: 80px;}
+      }
+
+      </style>
+
 </header>
 <body>
 
@@ -22,13 +33,6 @@ Let's start
 
 <!-- Everthing that comes inside the div tag will be align to center-->
 <!-- Everthing that comes inside the p tag will be color to Blue-->
-<style>
-div { text-align: center;}
-p { color: blue;}
-H1{ color:purple;}
-form { border-style:outset;}
-
-</style>
 
 
 
@@ -43,8 +47,10 @@ form { border-style:outset;}
 <!--Notice: a new attibutes 1) 'placeholder' 2)'required'-->
 <p> User Name: <input type="text" placeholder="Enter User Name" required>  </p>
 <p> Password: <input type="password" placeholder="Enter Password" required> </p>
-<input type="Submit" value="Login">
-<input type="reset" value="Clear"> <!-- it clears the text boxies values -->
+<!-- NOTICE: Use of BUTTON tags insted of input, all in CSS (above)-->
+<button type="submit">Login</button>
+<button type="reset">Reset</button>
+
 <br><br>
 
 </form>
