@@ -7,6 +7,7 @@ Want to learn HTML5 on a go?
 Read comments (in the code) to understand some basics.
 
 Still writing ...
+*With many typos, However, corrections are most welcome :P*
 
 
 
